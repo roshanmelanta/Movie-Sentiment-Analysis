@@ -3,6 +3,7 @@ from sklearn.externals import joblib
 import numpy as np
 import re 
 import nltk
+import joblib
 from sklearn.naive_bayes import GaussianNB
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
